@@ -17,7 +17,7 @@ export const UserCard = (Props: UserType) => {
             <>
 
                 <div>
-                    <img src="thumbnaiil" alt="プロフィール画像" className={styles.img} />
+                    <img src={thumbnaiil.src} alt="プロフィール画像" className={styles.img} />
                     <div className={styles.card}>
                         <h1>{name}</h1>
                         <p>{email}</p>
